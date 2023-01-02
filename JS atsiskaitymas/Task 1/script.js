@@ -17,8 +17,8 @@ document.querySelector('form').addEventListener('submit', function(event) {
 
   const output = document.querySelector('#output');
   output.innerHTML = `
-      <h3>${lb} svarai</h3>
-      <h3>${g} gramai</h3>
-      <h3>${oz} uncijos</h3>
+      <h1>${lb} svarai</h1>
+      <h1>${g} gramai</h1>
+      <h1>${oz} uncijos</h1>
   `;
 });
