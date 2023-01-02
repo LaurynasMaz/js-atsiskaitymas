@@ -7,30 +7,24 @@ division() - priima du skaičius ir grąžina jų dalybos rezultatą;
 ------------------------------------------------------------------------------------ */
 
 class Calculator {
-  constructor(number1, number2){
-    this.number1 = number1
-    this.number2 = number2
-  }
-  sum() {
-    return this.number1 + this.number2;
+  
+  sum(number1, number2) {
+    return number1 + number2;
   }
 
-  subtraction() {
-    return this.number1 - this.number2;
+  subtraction(number1, number2) {
+    return number1 - number2;
   }
 
-  multiplication() {
-    return this.number1 * this.number2;
+  multiplication(number1, number2) {
+    return number1 * number2;
   }
 
-  division() {
-    return this.number1 / this.number2;
+  division(number1, number2) {
+    return number1 / number2;
   }
 }
-
-let calculator = new Calculator(5,7)
-
-console.log(calculator.sum())
-console.log(calculator.subtraction())
-console.log(calculator.multiplication())
-console.log(calculator.division())
+console.log(new Calculator().sum(5,7)) 
+console.log(new Calculator().subtraction(4,9)) 
+console.log(new Calculator().multiplication(6,5)) 
+console.log(new Calculator().division(3,3)) 
