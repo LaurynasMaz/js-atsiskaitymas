@@ -68,7 +68,7 @@
   display: flex;
   align-items: center;
   flex-direction: column;
-  width: 185px;
+  width: 180px;
   height: 200px;
   border: 1px black solid;
 }
