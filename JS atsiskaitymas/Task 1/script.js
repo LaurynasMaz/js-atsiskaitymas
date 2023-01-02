@@ -17,8 +17,8 @@ document.querySelector('form').addEventListener('submit', function(event) {
 
   const output = document.querySelector('#output');
   output.innerHTML = `
-      <h1>${lb} svarai</h1>
-      <h1>${g} gramai</h1>
-      <h1>${oz} uncijos</h1>
+      <h1>${kg} kg yra ${lb} lbs</h1>
+      <h1>${kg} kg yra ${g} g</h1>
+      <h1>${kg} kg ${oz} oz</h1>
   `;
 });
