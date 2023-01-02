@@ -24,7 +24,7 @@ class Calculator {
     return number1 / number2;
   }
 }
-console.log(new Calculator().sum(5,7)) 
+console.log(new Calculator().sum(5,5)) 
 console.log(new Calculator().subtraction(4,9)) 
 console.log(new Calculator().multiplication(6,5)) 
 console.log(new Calculator().division(3,3)) 
