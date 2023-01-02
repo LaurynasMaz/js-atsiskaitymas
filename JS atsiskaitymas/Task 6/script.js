@@ -29,5 +29,5 @@ function getUserAverageAge(users) {
 
 console.log(getUserAverageAge(users));
 
-const getNames = (users) => users.flat().map(({name})=> name)
-console.log(getNames(users))
+const getUsersNames = (users) => users.flat().map(({name})=> name)
+console.log(getUsersNames(users))
