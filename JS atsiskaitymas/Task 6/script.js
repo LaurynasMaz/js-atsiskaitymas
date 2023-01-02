@@ -30,7 +30,7 @@ const getUserAverageAge = (array = []) => {
   });
   return (sum / (count || 1));
 };
-console.log(getUserAverageAge(users));
+console.log("Amžiaus vidurkis", getUserAverageAge(users));
 
 
 const getUsersNames = (users) => users.flat().map(({name})=> name)
